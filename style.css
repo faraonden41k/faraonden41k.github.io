@@ -8,10 +8,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 :root {
-    --primary-color: #0a8a6a; /* Основний колір */
-    --secondary-color: #E74C3C; /* Вторинний колір */
-    --background-color: #000000c7; /* Колір фону */
-    --text-color: #0a0a0a; /* Колір тексту */
+    --primary-color: #0a8a6a; 
+    --secondary-color: #E74C3C; 
+    --background-color: #000000c7; 
+    --text-color: #0a0a0a; 
 }
 
 * {
@@ -40,7 +40,7 @@ body {
 .main-section .left-part {
     width: 40%;
     height: 100%;
-    background-image: url(./images/.jpg);
+    background-image: url(./imagess/wallpaper.jpg);
     padding: 2.8rem;
 }
 
