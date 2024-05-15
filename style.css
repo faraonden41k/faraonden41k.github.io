@@ -154,8 +154,12 @@ body {
 }
 
 .work-container {
+    /* Зберемо місце для кнопок */
     margin-top: 5rem;
     font-family: 'Lato', sans-serif;
+    /* Видаліть цю строку
+    display: flex;
+    */
 }
 
 .work-container .work:not(:last-child) {
@@ -228,8 +232,8 @@ a {
 }
 
 .work {
-    display: block;
-    width: 200px;
+    /* Зменшимо ширину кнопок */
+    width: 100%; /* Змінено з 200px на 100% */
     height: 50px;
     text-align: center;
     line-height: 40px;
@@ -242,7 +246,12 @@ a {
     background-color: var(--secondary-color);
     color: var(--text-color);
 }
-
+.right-buttons {
+    display: flex;
+    flex-direction: column; /* Розмістимо кнопки вертикально */
+    align-items: flex-start; /* Вирівняємо кнопки ліворуч */
+    gap: 1rem; /* Додамо проміжок між кнопками */
+}
 
 
 
